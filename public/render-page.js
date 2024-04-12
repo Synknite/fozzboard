@@ -4229,17 +4229,6 @@ var plugins = [{
     "plugins": []
   }
 }, {
-  name: 'gatsby-plugin-sitemap',
-  plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-sitemap/gatsby-ssr */ "./node_modules/gatsby-plugin-sitemap/gatsby-ssr.js"),
-  options: {
-    "plugins": [],
-    "output": "/sitemap",
-    "createLinkInHead": true,
-    "entryLimit": 45000,
-    "query": "{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }",
-    "excludes": []
-  }
-}, {
   name: 'gatsby-plugin-manifest',
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
